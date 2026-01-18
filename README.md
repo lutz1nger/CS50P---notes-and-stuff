@@ -1,5 +1,5 @@
 ## Introduction
-These are my notes and my solutions for the problems sets for the CS50P - Introduction to Programming with Python.
+These are my notes and my problem set solutions for the CS50P - Introduction to Programming with Python.
 
 ## Resources
 * [YouTube Playlist of CS50P](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)

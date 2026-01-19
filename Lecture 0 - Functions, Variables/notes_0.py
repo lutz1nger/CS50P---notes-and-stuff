@@ -41,7 +41,7 @@ print(*objects, sep=' ', end='\n', file=None, flush=False) #* before objects mea
 
 str.strip() #whitspaces from the left and right of the variable are removed
 
-#string-methdos can be linked multiple times, e.g.
+#string-methdos can be chained multiple times, e.g.
 
 str.strip().title() #whitspaces from the left and right of the variable are removed and the first letter of every word is capitalized
 

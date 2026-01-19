@@ -31,7 +31,8 @@ elif x > y:                          #elif stat statement compares if x is great
 else:                                
     print("x is equal to y")         #when the elif statement is FALSE, the indented block is executed
 
-#advantage: when a statement is TRUE, the other statements are not checked and processing power is saved, e.g. when in the code above the if statement is TRUE, the elif statement is not checked and skipped
+#advantage: elif statement are only checked if the prior condition is FALSE, e.g. when in the code above the if statement is TRUE, the elif statement is not checked and skipped -> processing power is saved
+#else is only good when there are no other options you want to test for!!!
 
 #OR
 #allows your program to decide between one or more alternatives, e.g.
@@ -140,10 +141,12 @@ def main():
         print("Odd")                      #when the if statement is FALSE, the indented block is executed
 
 def is_even(n):
-    return n % 2 == 0                     #if statement compares if the modulo of n/2 is eual to 0 and return either TRUE or FALSE 
+    return n % 2 == 0                     #if statement compares if the modulo of n/2 is eual to 0 and return either TRUE or FALSE
+
+#additional information: Python follows the same precedence rules for its mathematical operators that mathematics does. parentheses have the highest precedence and can be used to force an expression to evaluate in the order you want. Since expressions in parentheses are evaluated first.
 
 #MATCH
-#a match statement compares the value following the match keyword with each of the values following the case keywords
+#match statement compares the value following the match keyword with each of the values following the case keywords
 
   name = str1                                #name is a string
 
@@ -154,4 +157,3 @@ def is_even(n):
           print("Slytherin")
       case _:                                #in match statement else is underscore (_) -> this case occurs if name is not equal to all other cases -> meaning that name is not equal to Harry or Hermione or Ron or Draco
           print("Who?")
-

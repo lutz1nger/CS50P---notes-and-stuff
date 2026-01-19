@@ -148,7 +148,7 @@ def is_even(n):
   name = str1                                #name is a string
 
   match name:                                #match statement for the variable name 
-      case "Harry" | "Hermione" | "Ron":     # in match statement and is I -> similiar to if name == "Harry" or name == "Hermione" or name == "Ron": -> means that this cases occurs if name is equal to Harry or Hermione or Ron
+      case "Harry" | "Hermione" | "Ron":     # in match statement or is I -> similiar to if name == "Harry" or name == "Hermione" or name == "Ron": -> means that this cases occurs if name is equal to Harry or Hermione or Ron
           print("Gryffindor")                
       case "Draco":                          #this case occurs if name is equal to Draco
           print("Slytherin")
